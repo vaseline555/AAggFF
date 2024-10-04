@@ -16,22 +16,24 @@
 * See also <i>Tiltied Empirical Risk minimization</i> ([TERM](https://openreview.net/forum?id=K5YasWXZT3O) &ndash; ICLR`21) &mdash; 𝙰𝙰𝚐𝚐𝙵𝙵 can be viewed as an online version of TERM.
 
 
-## Reproduce
+## Reproduce Experiments
 #### Setup 
 ```
 pip install -r requirements.txt
 ```
-> Implemented in: ( Ubuntu 20.04 LTS | Python 3.10.3 | CUDA 11.4 | CuDNN 8.3.2 )
+> Implemented with: ( Ubuntu 20.04 LTS | Python 3.10.3 | CUDA 11.4 | cuDNN 8.3.2 )
 
 
 #### Run
 ```
-# cross-silo setting
+# to see all arguments
+python main.py -h
+
+# e.g., cross-silo setting
 sh commands/cross_silo/berka/main_berka.sh
 ...
 
-
-# cross-device setting
+# e.g., cross-device setting
 sh commands/cross_device/celeba/main_celeba.sh
 ...
 ```
@@ -43,7 +45,7 @@ sh commands/cross_device/celeba/main_celeba.sh
 > If you find any interesting directions, please drop me a line for collaboration!
 
 ## License
-* For non-commercial use, this code is released under the [LICENSE](./LICENSE).  
+* For non-commercial use, this code is released under the [MIT LICENSE](./LICENSE).  
 * For commercial use, please contact <u>Seok-Ju (Adam) Hahn</u> ([sjhahn11512@gmail.com](mailto:sjhahn11512@gmail.com)).
 
 
