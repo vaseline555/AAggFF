@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">Pursuing Overall Welfare in Federated Learning <br> through Sequential Decision Making</h1>
+  <h1 align="center">(AAggFF) Pursuing Overall Welfare in Federated Learning <br> through Sequential Decision Making</h1>
   <h2 align="center">ICML 2024</h2>
 
 ### [Poster](./assets/AAggFF_Poster.pdf) | [Paper](https://arxiv.org/abs/2405.20821) | [Video](https://youtu.be/HwzcV645Xoc?list=PLTlQ809nH5xsdYaTyfsXbM6_gkzerxW8j) | [Thread (X)](https://x.com/vaseline_555/status/1814694180435993044)
