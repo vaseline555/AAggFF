@@ -10,11 +10,8 @@
 <img width="800" alt="image" src="./assets/AAggFF_Thumbnail.png">
 </div>
 
-## Abstract
-In traditional federated learning, a single global model cannot perform equally well for all clients. Therefore, the need to achieve the client-level fairness in federated system has been emphasized, which can be realized by modifying the static aggregation scheme for updating the global model to an adaptive one, in response to the local signals of the participating clients. Our work reveals that existing fairness-aware aggregation strategies can be unified into an online convex optimization framework, in other words, a central server’s sequential decision making process. To enhance the decision making capability, we propose simple and intuitive improvements for suboptimal designs within existing methods, presenting 𝙰𝙰𝚐𝚐𝙵𝙵. Considering practical requirements, we further subdivide our method tailored for the cross-device and the cross-silo settings, respectively. Theoretical analyses guarantee sublinear regret upper bounds for both settings: $\mathcal{O}(\sqrt{T\log{K}})$ for the cross-device setting, and  $\mathcal{O}(K\log{T})$ for the cross-silo setting, with $K$ clients and $T$ federation rounds. Extensive experiments demonstrate that the federated system equipped with 𝙰𝙰𝚐𝚐𝙵𝙵 achieves better degree of client-level fairness than existing methods in both practical settings.
-
 ## TL; DR
-<u>The server-side sequential decision-making</u> for the performance uniformity in federated settings by constructing <u>adaptive mixing coefficients</u> used to aggregate local updates.
+<u>The server-side sequential decision-making</u> framework for the performance uniformity in practical federated settings by constructing <u>adaptive mixing coefficients</u> used to aggregate local updates.
 * See also <i>Agnostic Federated Learning</i> ([AFL](https://arxiv.org/abs/1902.00146) &ndash; ICML`19) (i.e., min-max optimization; distributionally-robust optimization) &mdash; 𝙰𝙰𝚐𝚐𝙵𝙵 can be regarded as a rectified version of AFL.
 * See also <i>Tiltied Empirical Risk minimization</i> ([TERM](https://openreview.net/forum?id=K5YasWXZT3O) &ndash; ICLR`21) &mdash; 𝙰𝙰𝚐𝚐𝙵𝙵 can be viewed as an online version of TERM.
 
